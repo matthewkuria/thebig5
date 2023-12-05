@@ -8,10 +8,10 @@ export default function Nav (){
                <div>
                 <ul className='text-gray-400 font-semibold flex inline-block'>
                     <li className='hover:text-green-400'><a href="#">Elephants</a></li>
-                    <li><a href="">Rhino</a></li>
-                    <li><a href="">Buffalo</a></li>
-                    <li><a href="">Lion</a></li>
-                    <li><a href="">Leopard</a></li>
+                    <li className='hover:text-green-400'><a href="">Rhino</a></li>
+                    <li className='hover:text-green-400'><a href="">Buffalo</a></li>
+                    <li className='hover:text-green-400'><a href="">Lion</a></li>
+                    <li className='hover:text-green-400'><a href="">Leopard</a></li>
                 </ul>
                </div>
                </div>

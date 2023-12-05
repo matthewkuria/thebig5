@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Nav />
-    <h1 className="text-green-600 font-bold ">The Big 5 Animals</h1>
+    <h1 className="text-green-600 font-bold my-10">The Big 5 Animals</h1>
       <Card />
     </>
   )
