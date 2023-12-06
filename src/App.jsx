@@ -7,11 +7,11 @@ function App() {
  
 
   return (
-    <>
-    <Nav />
+    <div className='relative'>
+    <Nav  />
     <h1 className="text-green-600 font-bold my-10">The Big 5 Animals</h1>
       <Card />
-    </>
+    </div>
   )
 }
 
