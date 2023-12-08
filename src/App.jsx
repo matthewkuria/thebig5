@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Card from './components/Card'
 import './App.css'
 import animalsData from './animalsData';
@@ -23,6 +24,7 @@ function App() {
     <h1 className="text-green-600 font-bold my-10">The Big 5 Animals</h1>
       {/* Display animal in a card */}
       {animalElement}
+      <Footer />
     </div>
   )
 }
