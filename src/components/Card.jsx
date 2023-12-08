@@ -9,6 +9,11 @@ export default function Card (){
             weigh more than 13,000 lbs. (6 tons/5,442 kilograms) and stand as tall as 12 ft. (4 meters)
              at the shoulder. 
              The African Savanna elephant is classified as an Endangered Species.
+             <button className=" block bg-green-600 text-white font-bold mx-auto my-9 py-3 px-2 border-2 hover:bg-white hover:text-green-600 hover:border-green-600" >
+                <a href="/gallery">
+                    View Gallery
+                 </a>
+            </button>
             </p>
         </div>
     )
